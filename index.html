@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to the finest coffee experience! Find the best selection of coffee beans, brewing equipment, and accessories.">
+    <meta name="keywords" content="coffee, coffee beans, espresso, brewing, coffee accessories, coffee shop">
+    <meta name="author" content="Priya Nayak">
+    <meta property="og:title" content="BrewBuddies">
+    <title>BrewBuddies</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0%;
+            padding: 0%;
+        }
+
+        h1 {
+            color: rgb(234, 242, 244);
+            background-color: black;
+            height: 7vh;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 2px;
+        }
+
+        body {
+            background-color: rgba(0, 0, 0, 0.795);
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.607);
+            padding: 10px;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: antiquewhite;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: rgb(88, 41, 3);
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        section h2 {
+            text-align: center;
+        }
+
+        .newsletter {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.607);
+            padding: 20px;
+        }
+
+        .newsletter input[type="email"] {
+            padding: 10px;
+            margin: 10px;
+            width: 300px;
+        }
+
+        .newsletter input[type="submit"] {
+            padding: 10px 20px;
+            background-color: rgb(88, 41, 3);
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- main-header -->
+    <header>
+        <div>
+            <h1>BrewBuddies☕</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Subscribe</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="./3rd-coffee.png" alt="main-coffee page img" height="400px" width="100%">
+        </div>
+    </header>
+
+    <!-- first-section -->
+    <section>
+        <h2>About Us</h2>
+        <p>Welcome to BrewBuddies, where we offer the finest selection of coffee beans, brewing equipment, and
+            accessories to elevate your coffee experience to new heights.</p>
+    </section>
+
+    <!-- Our Story -->
+    <section>
+        <h2>Our Story</h2>
+        <p>Discover the journey behind BrewBuddies and our passion for bringing you the best coffee products from around
+            the world.</p>
+    </section>
+
+    <!-- Information -->
+    <section>
+        <h2>Information</h2>
+        <p>Explore opportunities to become a channel partner, locate our stores, or get in touch with us regarding terms
+            and policies.</p>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <h2>Newsletter</h2>
+        <p>Sign up to get special offers, giveaways, and once-in-a-lifetime deals.</p>
+        <form action="#" method="post">
+            <input type="email" name="email" placeholder="Enter your email">
+            <input type="submit" value="Sign Up">
+        </form>
+    </section>
+</body>
+
+</html>
